@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "joker203"
+version = "0.1.0"
+description = "create a single api that returns one random joke using litellm"
+authors = ["AutoGPT <info@agpt.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+bcrypt = "^3.2.2"
+fastapi = "*"
+httpx = "^0.23.0"
+prisma = "*"
+pydantic = "*"
+uvicorn = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
